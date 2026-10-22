@@ -1,0 +1,273 @@
+{
+  "keyword": "creatopy alternatives",
+  "title": "Creatopy Alternatives: 7 Ad Production Platforms Compared (2026)",
+  "lastChecked": "2026-10-22",
+  "capabilityChecks": [
+    {
+      "key": "pricesPublished",
+      "label": "Prices published"
+    },
+    {
+      "key": "selfServeTrialOrFreePlan",
+      "label": "Self-serve trial or free plan"
+    },
+    {
+      "key": "brandKit",
+      "label": "Brand kit"
+    },
+    {
+      "key": "reviewAndApproval",
+      "label": "Review and approval"
+    },
+    {
+      "key": "productFeedOrDataRows",
+      "label": "Product feed or data rows"
+    },
+    {
+      "key": "publicApi",
+      "label": "Public API"
+    },
+    {
+      "key": "aiGeneration",
+      "label": "AI generation"
+    }
+  ],
+  "tools": [
+    {
+      "n": 1,
+      "name": "Wireflow",
+      "tagline": "Best overall for generating the creative for each size",
+      "homepage": "https://www.wireflow.ai/",
+      "docs": "https://www.wireflow.ai/docs/api/overview",
+      "pricing": "https://www.wireflow.ai/pricing",
+      "claudeConnection": "Custom connector, OAuth sign-in",
+      "restApi": true,
+      "modelSupport": "100+ image, video and audio models as nodes",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": null,
+      "quickstart": [
+        {
+          "label": "Add the Wireflow connector to Claude Code, from the wireflowINC/skills README. Then run /mcp to sign in.",
+          "lang": "bash",
+          "code": "claude mcp add --transport http wireflow https://www.wireflow.ai/api/mcp"
+        },
+        {
+          "label": "Or run a saved board from code: send its input values to this endpoint with an API key, then poll the execution. The request format is in the API reference linked under Docs.",
+          "lang": "text",
+          "code": "POST /api/v1/workflows/{id}/run"
+        }
+      ],
+      "moneyPage": "https://www.wireflow.ai/ai-workflow-builder",
+      "moneyPageLabel": "Wireflow AI workflow builder page",
+      "capabilities": {
+        "pricesPublished": true,
+        "selfServeTrialOrFreePlan": true,
+        "brandKit": true,
+        "reviewAndApproval": false,
+        "productFeedOrDataRows": true,
+        "publicApi": true,
+        "aiGeneration": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 2,
+      "name": "Canva",
+      "tagline": "Best for templates and a brand kit on a self-serve plan",
+      "homepage": "https://www.canva.com/",
+      "docs": "https://www.canva.dev/docs/connect/",
+      "pricing": "https://www.canva.com/pricing/",
+      "claudeConnection": "Claude connector by Canva",
+      "restApi": true,
+      "modelSupport": null,
+      "freeTier": "yes",
+      "repo": null,
+      "note": "The pricing page shows Pro as a yearly price only (checked 2026-10-11).",
+      "quickstart": [
+        {
+          "label": "The Canva connector URL, from the Canva listing in Anthropic's connector directory. Add it in Claude and sign in with your Canva account.",
+          "lang": "text",
+          "code": "https://mcp.canva.com/mcp"
+        }
+      ],
+      "capabilities": {
+        "pricesPublished": true,
+        "selfServeTrialOrFreePlan": true,
+        "brandKit": true,
+        "reviewAndApproval": null,
+        "productFeedOrDataRows": null,
+        "publicApi": true,
+        "aiGeneration": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 3,
+      "name": "Celtra",
+      "tagline": "Best for enterprise teams that produce, serve and measure ads in one place",
+      "homepage": "https://celtra.com/",
+      "docs": null,
+      "pricing": "https://celtra.com/pricing/",
+      "claudeConnection": null,
+      "restApi": null,
+      "modelSupport": null,
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Custom pricing by quote. Custom API integrations are sold as an add-on (checked 2026-10-11).",
+      "quickstart": null,
+      "capabilities": {
+        "pricesPublished": false,
+        "selfServeTrialOrFreePlan": false,
+        "brandKit": null,
+        "reviewAndApproval": null,
+        "productFeedOrDataRows": true,
+        "publicApi": null,
+        "aiGeneration": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 4,
+      "name": "Bannerflow",
+      "tagline": "Best for display, social and DOOH ad sets built from one master",
+      "homepage": "https://www.bannerflow.com/",
+      "docs": null,
+      "pricing": null,
+      "claudeConnection": null,
+      "restApi": null,
+      "modelSupport": null,
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "No pricing page (the /pricing URL returned 404 on 2026-10-11); access starts with a demo request.",
+      "quickstart": null,
+      "capabilities": {
+        "pricesPublished": false,
+        "selfServeTrialOrFreePlan": false,
+        "brandKit": null,
+        "reviewAndApproval": true,
+        "productFeedOrDataRows": true,
+        "publicApi": null,
+        "aiGeneration": null
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 5,
+      "name": "Storyteq",
+      "tagline": "Best for versioning content by channel and market",
+      "homepage": "https://storyteq.com/",
+      "docs": null,
+      "pricing": "https://storyteq.com/pricing/",
+      "claudeConnection": null,
+      "restApi": null,
+      "modelSupport": null,
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Both packages are Price on Application (checked 2026-10-11).",
+      "quickstart": null,
+      "capabilities": {
+        "pricesPublished": false,
+        "selfServeTrialOrFreePlan": false,
+        "brandKit": null,
+        "reviewAndApproval": true,
+        "productFeedOrDataRows": null,
+        "publicApi": null,
+        "aiGeneration": null
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 6,
+      "name": "Smartly",
+      "tagline": "Best for paid social and CTV teams",
+      "homepage": "https://www.smartly.io/",
+      "docs": null,
+      "pricing": null,
+      "claudeConnection": null,
+      "restApi": null,
+      "modelSupport": null,
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "No pricing page or prices are shown; the sales path is Get a Demo (checked 2026-10-11).",
+      "quickstart": null,
+      "capabilities": {
+        "pricesPublished": false,
+        "selfServeTrialOrFreePlan": false,
+        "brandKit": null,
+        "reviewAndApproval": true,
+        "productFeedOrDataRows": null,
+        "publicApi": null,
+        "aiGeneration": null
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 7,
+      "name": "Rocketium",
+      "tagline": "Best for creatives produced on a brief by people and AI agents",
+      "homepage": "https://rocketium.ai/",
+      "docs": null,
+      "pricing": "https://rocketium.ai/pricing",
+      "claudeConnection": null,
+      "restApi": null,
+      "modelSupport": null,
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "The pricing page shows no plan prices; pricing is requested through a demo (checked 2026-10-11).",
+      "quickstart": null,
+      "capabilities": {
+        "pricesPublished": false,
+        "selfServeTrialOrFreePlan": false,
+        "brandKit": null,
+        "reviewAndApproval": true,
+        "productFeedOrDataRows": null,
+        "publicApi": null,
+        "aiGeneration": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    }
+  ]
+}
